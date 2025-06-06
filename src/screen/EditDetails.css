@@ -1,0 +1,71 @@
+/* EditDetails.css */
+
+.edit-profile-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #f4f8ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+}
+
+.edit-profile-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.edit-profile-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.edit-profile-container input,
+.edit-profile-container textarea,
+.edit-profile-container select {
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.edit-profile-container textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.edit-profile-container input[type="file"] {
+  border: none;
+  padding: 0;
+}
+
+.edit-profile-container button {
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.edit-profile-container button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.edit-profile-container button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+/* React Select spacing */
+.css-13cymwt-control,
+.css-1p3m7a8-multiValue {
+  border-radius: 6px;
+}

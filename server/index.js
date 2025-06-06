@@ -16,6 +16,9 @@ const CodeLiveRouter = require("./routes/CodeLive");
 
 const app = express();
 const PORT = 8000;
+//setupdotenv
+const dotenv = require("dotenv");
+dotenv.config();
 
 // MongoDB connection setup
 const mongoURI = process.env.MONGODB_URI
